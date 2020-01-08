@@ -1,7 +1,10 @@
 
 ##### fortran
 F90 = ifort
-PF90 = ftn
+#PF90 = ftn
+###fix some bug about PF90,when use hdf5
+WANNIER_PF90 = mpiifort
+PF90 = h5pfc
 compfl = -O3
 
 ##### phdf5
