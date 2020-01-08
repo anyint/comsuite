@@ -1,3 +1,4 @@
+module purge
 module load intel/2018.4  mpi/intel/2018.4 group/python/anaconda3/2019.10 group/hdf5/1.10.5
 export  COMSUITE_BIN=~/softwares/comsuite/20200108/bin
 conda install numpy scipy tabulate itertools mpi4py cython matplotlib builtins sympy pymatgen pyyaml  h5py
